@@ -15,3 +15,5 @@ services:
     value: single-node
   - key: cluster.name
     value: elastic
+  ports:
+  - http://elasticsearch-3ti6:9200
