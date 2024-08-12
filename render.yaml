@@ -14,6 +14,6 @@ services:
   - key: discovery.type
     value: single-node
   - key: cluster.name
-    value: elastic
+    value: elastic_test
   ports:
   - http://elasticsearch-3ti6:9200
